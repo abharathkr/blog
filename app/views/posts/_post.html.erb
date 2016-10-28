@@ -1,0 +1,4 @@
+<%= div_for @post do %>
+	<h3 style="text-align: center"><%= h(@post.title) %></h3>
+	<%= simple_format h(@post.body) %>
+<% end %>
